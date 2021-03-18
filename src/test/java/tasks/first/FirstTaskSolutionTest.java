@@ -12,7 +12,7 @@ class FirstTaskSolutionTest {
     @Test
     void bracketsValidation_valid1(){
         String testString = "({[]})";
-        assertTrue(solution.validateBrackets(testString));
+        assertTrue(solution.validateBrackets(testString) & solution.validateBrackets("") & solution.validateBrackets("sdw[dw{dfe}adaw]") );
     }
 
     @Test

@@ -8,7 +8,7 @@ public class FirstTaskSolution implements FirstTask {
 
     @Override
     public Boolean validateBrackets(String s) {
-        return null;
+        return false;
     }
 
     @Override
